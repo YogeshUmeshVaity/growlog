@@ -1,8 +1,9 @@
 ---
 layout: default
+title: Licenses for third party libraries in Growlog.
 ---
 
-# Third party licences
+# Licenses for third party libraries
 
 
 ## Kotlin Programming Language

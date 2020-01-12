@@ -1,2 +1,3 @@
 baseurl: /growlog
+title: Growlog
 exclude: ['imp-backup']

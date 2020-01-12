@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Privacy Policy of Growlog.
 ---
 
 # Privacy Policy
