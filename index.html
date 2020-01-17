@@ -40,61 +40,92 @@
     {% include header.html %}
 
     <!-- This is a temporary heading div. It should be deleted when the grids that commented out below this are live. -->
-    <div class="w3-row-padding w3-padding-64 w3-container">
-        <div class="w3-content">
-            <div class="w3-twothird">
-                <h1>Coming soon...</h1>
-            </div>
-        </div>
-    </div>
-
-    <!-- First Grid -->
     <!-- <div class="w3-row-padding w3-padding-64 w3-container">
         <div class="w3-content">
             <div class="w3-twothird">
                 <h1>Coming soon...</h1>
-                <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
-
-                <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-
-            <div class="w3-third w3-center">
-                <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
             </div>
         </div>
     </div> -->
 
-    <!-- Second Grid -->
-    <!-- <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+    <!-- Plant List Grid -->
+    <div class="w3-row-padding w3-padding-64 w3-container">
         <div class="w3-content">
+            <div class="w3-twothird">
+                <h1>Fast and easy to use</h1>
+                <h5 class="w3-padding-32">Swipe the plant to the right for watering and swipe left for fertilizing. You
+                    can search plants quickly by their name using the search feature.</h5>
+
+                <p class="w3-text-grey">The first two plant actions are assigned to the left and right swipes. By
+                    default, the Watering and Fertilizing are assigned to the left and right swipes as they are the most
+                    used actions for plants. Do you have a lot of plants to care? Worry not, you can use the search
+                    feature to search your plants by name. Just tap on the search button at the top and enter name of
+                    the
+                    plant. Entering the first character of the plant name will display all the plants whose name starts
+                    with that particular character. If you enter multiple characters, the app will display the plants
+                    that have those characters anywhere in their names. This is useful when you don't remember exact
+                    name of the plant, just type any word that you remember and the app will take care of the rest.
+                </p>
+            </div>
+
+            <!-- Plant list screenshot -->
+            <div class="w3-third w3-center">
+                <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Plant Actions Grid -->
+    <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+        <div class="w3-content">
+            <!-- Plant actions screenshot -->
             <div class="w3-third w3-center">
                 <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
             </div>
 
             <div class="w3-twothird">
-                <h1>Lorem Ipsum</h1>
-                <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+                <h1>Unlimited plant actions</h1>
+                <h5 class="w3-padding-32">Growlog is not limited to just Watering and Fertilizing. You can add as many
+                    plant actions as you would like. Each plant also has its own section for writing notes. </h5>
 
-                <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p class="w3-text-grey">To mark an action as done, just tap the checkmark button of the action and the
+                    Growlog will take care of logging the history as well as diplaying when the action was last done.
+                    You can add actions such as Sterilizing, Leaf Cleaning, Pruning, Full Draining, Harvesting,
+                    Repotting, Air layering and so on. Be default, Growlog adds Watering and Fertilizing for
+                    every new plant that you add. After that you can add any actions as feel necessary for that
+                    particular plant. Every plant has it's own list of actions. The note feature allows you to write
+                    miscellenious things about the plant such as the kind of soil mix used, the concentration of the
+                    fertilizer used or write any experience about that particular plant. Use the note icon at the top
+                    right corner to write the notes.
+                </p>
             </div>
         </div>
-    </div> -->
+    </div>
+
+    <!-- Reminders Grid -->
+    <div class="w3-row-padding w3-padding-64 w3-container">
+        <div class="w3-content">
+            <div class="w3-twothird">
+                <h1>All reminders in one place</h1>
+                <h5 class="w3-padding-32">You can set repeating reminders for plant actions and get a single daily
+                    notification for all the reminders. You also have the ability to postpone a reminder.</h5>
+
+                <p class="w3-text-grey">The reminders screen displays all the plant actions that need your attention.
+                    You get a daily notification if there are any actions required by you. To set the reminder for a
+                    plant action, tap the alarm icon for that particular action and specify the repeating number of days
+                    after which to remind you of that action. The reminder is triggered when the specified number of
+                    days exceeds the number of days since the plant action was last done. You can also postpone a
+                    reminder when you think it's not an appropriate time to perform that action. Use the snooze icon to
+                    specify the number of days by which the reminder should be postponed.
+                </p>
+            </div>
+
+            <!-- Reminders screenshot -->
+            <div class="w3-third w3-center">
+                <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
+            </div>
+        </div>
+    </div>
 
     <!-- <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
         <h1 class="w3-margin w3-xlarge">Quote of the day: live life</h1>
