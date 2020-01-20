@@ -3,7 +3,7 @@ layout: default
 title: How to use the Growlog.
 ---
 
-# How To
+# How to use the Growlog
 
 ### Add a new plant
 ### Edit name and photo of a plant
